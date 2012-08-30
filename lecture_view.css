@@ -1,0 +1,204 @@
+body {
+    background: none repeat scroll 0 0 #EEEEEE;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+.fullscreen-body {
+    background: none repeat scroll 0 0 #000000;
+}
+.mejs-controls {
+    z-index: 101;
+}
+.mejs-controls .mejs-captions-button .mejs-captions-selector {
+    height: 300px;
+    width: 100px;
+    z-index: 105;
+}
+.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label {
+    width: 60px;
+}
+.mejs-captions-text {
+    background: none repeat scroll 0 0 rgba(20, 20, 20, 0.7);
+    border-radius: 5px 5px 5px 5px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 6px 9px;
+}
+.mejs-captions-position-hover {
+    bottom: 50px;
+}
+.mejs-time-float {
+    z-index: 105;
+}
+.mejs-container .mejs-controls div .mejs-cuepoint {
+    background: none repeat scroll 0 0 yellow;
+    height: 100%;
+    width: 2px;
+}
+input.video_quiz_explanation_close_button {
+    font-size: 14pt;
+}
+.video_quiz_submit_button, .video_quiz_continue_button {
+    font-size: 14pt;
+    height: 30px;
+    left: 830px;
+    opacity: 0.75;
+    position: absolute;
+    top: 440px;
+    width: 120px;
+    z-index: 101;
+}
+.video_quiz_skip_button, .video_quiz_show_explanation_button {
+    font-size: 14pt;
+    height: 30px;
+    left: 830px;
+    opacity: 0.75;
+    position: absolute;
+    top: 475px;
+    width: 120px;
+    z-index: 101;
+}
+.video_quiz_status_div {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 18px;
+    left: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 480px;
+}
+#QL_controls {
+    font-size: 15px;
+    height: 20px;
+    margin-top: 3px;
+}
+#close_button {
+    background: url("../img/close.png") repeat scroll 0 0 transparent;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+.data_container {
+    display: none;
+}
+.video_quiz_overlay {
+    font-size: 15px;
+    text-align: left;
+}
+.video_quiz_overlay label {
+    position: relative;
+    top: -5px;
+}
+.quiz_input {
+    margin-right: 10px;
+}
+.video_quiz_status_div {
+    font-size: 30px;
+}
+.mejs-container-fullscreen {
+    z-index: auto;
+}
+a {
+    text-decoration: none;
+}
+.mejs-overlay-button {
+    display: none !important;
+}
+.mejs-overlay-play {
+    display: none !important;
+}
+.ql_overlay_partscreen {
+    text-align: center;
+}
+.ql_container_fullscreen {
+    height: 100% !important;
+    width: 100% !important;
+}
+.prev-block {
+    float: left;
+    width: 120px;
+}
+.title-block {
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    width: 720px;
+}
+.next-block {
+    float: left;
+    text-align: right;
+    width: 120px;
+}
+.shortcuts_link_block {
+    font-size: 12px;
+    left: 100px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+.shortcuts_block {
+    background-color: #EEEEEE;
+    border-radius: 10px 10px 10px 10px;
+    display: none;
+    left: 10px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    z-index: 10000;
+}
+.speed-menu {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 2px solid #DDDDDD;
+    bottom: 30px;
+    left: 42px;
+    position: absolute;
+    width: 96px;
+    z-index: 1000;
+}
+.speed-menu a {
+    width: 64px;
+}
+.speed-group {
+    float: right;
+    position: relative;
+    top: -5px;
+}
+.set-cuepoint-group {
+    float: right;
+}
+.quiz_container {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.close {
+    color: #000000;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 13.5px;
+    opacity: 0.25;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.close:hover {
+    color: #000000;
+    opacity: 0.4;
+    text-decoration: none;
+}
+input.quiz_input {
+    display: inline-block;
+    vertical-align: middle;
+}
+div.quiz_option label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+}
+
